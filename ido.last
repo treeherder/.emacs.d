@@ -32,9 +32,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/treeherder/.emacs.d/"
+ "/Users/treeherder/.lein/"
  "/Users/treeherder/projects/rockit/rockit_access/"
  "/Users/treeherder/projects/droid/events/src/clojure/org/stuff/events/"
- "/Users/treeherder/.lein/"
  "/Users/treeherder/projects/droid/events/"
  "/Users/treeherder/projects/droid/clojuroid/src/java/org/stuff/clojuroid/"
  "/Users/treeherder/projects/droid/clojuroid/src/clojure/org/stuff/clojuroid/"
@@ -47,6 +48,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "README.md"
  "eb_api_handler.py"
  "eb_api_handler.pyc"
  "test.py"
@@ -55,13 +58,15 @@
  "repl-history"
  "profiles.clj"
  "project.clj"
- "SplashActivity.java"
- "engine.pyc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/treeherder/projects/rockit/rockit_access/" (21712 26534 0 0) "test_materials/" "test.py" "secret.pyc" "secret.py" "README.md" "notes.txt" "engine.pyc" "engine.py" "eb_api_handler.pyc" "eb_api_handler.py" "a_secret.py" ".gitignore" ".git/" ".DS_Store" "#test.py#" "../" "./")
+ ("/Users/treeherder/.emacs.d/" (21713 55074 0 0) "var/" "themes/" "saves/" "README.md" "projectile-bookmarks.eld" "places" "init.el.old" "init.el.new" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "Cask" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".cask/" "../" "./")
+
+ ("/Users/treeherder/.lein/" (21713 54015 0 0) "repl-history" "README.md" "profiles.clj" ".git/" "../" "./")
+
+ ("/Users/treeherder/projects/rockit/rockit_access/" (21712 27630 0 0) "test_materials/" "test.py" "secret.pyc" "secret.py" "README.md" "notes.txt" "engine.pyc" "engine.py" "eb_api_handler.pyc" "eb_api_handler.py" "a_secret.py" ".gitignore" ".git/" ".DS_Store" "#test.py#" "../" "./")
 
  ("/Users/treeherder/projects/droid/events/src/clojure/org/stuff/events/" (21711 16391 0 0) "main.clj" "../" "./")
 
@@ -77,8 +82,6 @@
 
  ("/Users/treeherder/" (21711 157 0 0) "Things/" "testerer/" "test_project/" "test/" "sketchbook/" "safe-h2o/" "RXTX/" "Public/" "projects/" "printrun/" "Pictures/" "opt/" "om-tut/" "nltk_data/" "Music/" "Movies/" "matplotlib/" "libusb/" "Library/" "libfreenect/" "kijani/" "eventbrite-client-py/" "Downloads/" "Documents/" "Desktop/" "clodiuno/" "bin/" "Arduino/" "Applications/" "ADXL345_Eval/" "a01/" ".Xauthority" ".vimrc" ".viminfo" ".vim_runtime/" ".vim_mru_files" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".serverauth.38475" ".rnd" ".pronsolerc~bak" ".pronsolerc" ".profile~" ".profile" ".pip/" ".mongorc.js" ".matplotlib/" ".m2/" ".lein/" ".jline-reply.history" ".irssi/" ".gitconfig" ".emacs.forest.d/" ".emacs.d.good/" ".emacs.d/" ".emacs.brave.d/" ".DS_Store" ".dbshell" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".android/" "../" "./")
 
- ("/Users/treeherder/.lein/" (21711 8 0 0) "repl-history" "profiles.clj" "../" "./")
-
  ("/Users/treeherder/projects/droid/" (21710 57397 0 0) "events/" "../" "./")
 
  ("/Users/treeherder/projects/droid/clojuroid/src/java/org/stuff/clojuroid/" (21702 40006 0 0) "SplashActivity.java" "../" "./")
@@ -90,8 +93,6 @@
  ("/Users/treeherder/projects/droid/clojuroid/src/java/" (21702 40006 0 0) "org/" "../" "./")
 
  ("/Users/treeherder/projects/rockit/rockit_access/test_materials/" (21594 34797 0 0) "upload.doc" "dumpfile" "code" "../" "./")
-
- ("/Users/treeherder/.emacs.d/" (21704 45904 0 0) "var/" "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el.old" "init.el.new" "init.el" "ido.last" "elpa/" "customizations/" "Cask" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".cask/" "../" "./")
 
  ("/Users/treeherder/.emacs.d/auto-save-list/" (21704 45904 0 0) ".saves-24991-evermore~" "../" "./")
 
