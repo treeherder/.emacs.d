@@ -33,10 +33,10 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/treeherder/.emacs.d/"
+ "/Users/treeherder/projects/droid/events/"
  "/Users/treeherder/.lein/"
  "/Users/treeherder/projects/rockit/rockit_access/"
  "/Users/treeherder/projects/droid/events/src/clojure/org/stuff/events/"
- "/Users/treeherder/projects/droid/events/"
  "/Users/treeherder/projects/droid/clojuroid/src/java/org/stuff/clojuroid/"
  "/Users/treeherder/projects/droid/clojuroid/src/clojure/org/stuff/clojuroid/"
  "/Users/treeherder/projects/web-clj/src/web_clj/"
@@ -49,6 +49,8 @@
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "init.el.new"
+ ".gitignore"
  "README.md"
  "eb_api_handler.py"
  "eb_api_handler.pyc"
@@ -56,13 +58,13 @@
  "engine.py"
  "main.clj"
  "repl-history"
- "profiles.clj"
- "project.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/treeherder/.emacs.d/" (21713 55074 0 0) "var/" "themes/" "saves/" "README.md" "projectile-bookmarks.eld" "places" "init.el.old" "init.el.new" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "Cask" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".cask/" "../" "./")
+ ("/Users/treeherder/.emacs.d/" (21713 58329 0 0) "var/" "themes/" "saves/" "README.md" "projectile-bookmarks.eld" "places" "init.el.old" "init.el.new" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "Cask" "backups/" "auto-save-list/" ".smex-items" ".recentf" ".gitignore" ".git/" ".cask/" "../" "./")
+
+ ("/Users/treeherder/projects/droid/events/" (21713 56651 0 0) "target/" "src/" "res/" "project.clj" "LICENSE" "assets/" "AndroidManifest.template.xml" ".nrepl-port" ".gitignore" ".git/" "../" "./")
 
  ("/Users/treeherder/.lein/" (21713 54015 0 0) "repl-history" "README.md" "profiles.clj" ".git/" "../" "./")
 
@@ -77,8 +79,6 @@
  ("/Users/treeherder/projects/droid/events/src/clojure/" (21710 57397 0 0) "org/" "../" "./")
 
  ("/Users/treeherder/projects/droid/events/src/" (21710 57397 0 0) "java/" "clojure/" "../" "./")
-
- ("/Users/treeherder/projects/droid/events/" (21710 65082 0 0) "target/" "src/" "res/" "project.clj" "LICENSE" "assets/" "AndroidManifest.template.xml" ".nrepl-port" ".gitignore" "../" "./")
 
  ("/Users/treeherder/" (21711 157 0 0) "Things/" "testerer/" "test_project/" "test/" "sketchbook/" "safe-h2o/" "RXTX/" "Public/" "projects/" "printrun/" "Pictures/" "opt/" "om-tut/" "nltk_data/" "Music/" "Movies/" "matplotlib/" "libusb/" "Library/" "libfreenect/" "kijani/" "eventbrite-client-py/" "Downloads/" "Documents/" "Desktop/" "clodiuno/" "bin/" "Arduino/" "Applications/" "ADXL345_Eval/" "a01/" ".Xauthority" ".vimrc" ".viminfo" ".vim_runtime/" ".vim_mru_files" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".serverauth.38475" ".rnd" ".pronsolerc~bak" ".pronsolerc" ".profile~" ".profile" ".pip/" ".mongorc.js" ".matplotlib/" ".m2/" ".lein/" ".jline-reply.history" ".irssi/" ".gitconfig" ".emacs.forest.d/" ".emacs.d.good/" ".emacs.d/" ".emacs.brave.d/" ".DS_Store" ".dbshell" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_profile" ".bash_history" ".android/" "../" "./")
 

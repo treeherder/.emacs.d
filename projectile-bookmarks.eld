@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/.lein/" "~/projects/rockit/rockit_access/" "~/projects/droid/events/" "~/projects/droid/test_app/" "~/projects/droid/clojuroid/" "~/projects/web-clj/" "~/projects/clj/arduino-sandbox/" "~/projects/clj/serial-port/")
+("~/.emacs.d/" "~/projects/droid/events/" "~/.lein/" "~/projects/rockit/rockit_access/" "~/projects/droid/test_app/" "~/projects/droid/clojuroid/" "~/projects/web-clj/" "~/projects/clj/arduino-sandbox/" "~/projects/clj/serial-port/")

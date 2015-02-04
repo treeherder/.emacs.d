@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ package-install
  cider-connect
  cider-mode
- package-install
  python-mode
  recover-session
  rainbow-delimiters-mode
@@ -14,7 +14,7 @@
 (
  (package-initialize . 3)
  (package-build-all . 2)
- (package-install . 6)
+ (package-install . 16)
  (rainbow-mode . 2)
  (rainbow-delimiters-mode . 8)
  (battery . 1)

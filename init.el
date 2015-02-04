@@ -161,9 +161,10 @@
 (require 'magit-gh-pulls)
 (add-hook 'magit-mode-hook 'turn-on-magit-gh-pulls)
 ;; JavaScript
-(require 'js2-mode)
-(autoload 'js2-mode "js2-mode" nil t)
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+;;(require 'js2-mode)
+;;(autoload 'js2-mode "js2-mode" nil t)
+;;(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+
 ;; SASS
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
 (add-hook 'scss-mode-hook 'rainbow-mode)
