@@ -1,7 +1,7 @@
 ;;;;
 ;; Packages
 ;;;;
-(require 'cask "/usr/local/Cellar/cask/0.7.2/cask.el")
+(require 'cask "/home/jane/.cask/cask.el")
 (cask-initialize)
 ;; Define package repositories
 (require 'package)
@@ -65,9 +65,8 @@
     rainbow-mode
     ;; edit html tags like sexps
     tagedit
-
-    ;; git integration
-    magit))
+    js2-mode
+  ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -135,9 +134,6 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
-
-;; cider is fucked up
-(add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
 
 ;; Disable annoying UI
  (setq inhibit-splash-screen t)
