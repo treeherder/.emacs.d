@@ -1,7 +1,7 @@
 ;;;;
 ;; Packages
 ;;;;
-(require 'cask "/home/jane/.cask/cask.el")
+(require 'cask "/home/treeherder/.cask/cask.el")
 (cask-initialize)
 ;; Define package repositories
 (require 'package)
@@ -66,7 +66,8 @@
     ;; edit html tags like sexps
     tagedit
     js2-mode
-  ))
+    tangotango-theme
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -152,10 +153,6 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 ;; Insert matching pairs automatically
 (electric-pair-mode t)
-;; Git
-(require 'magit)
-(require 'magit-gh-pulls)
-(add-hook 'magit-mode-hook 'turn-on-magit-gh-pulls)
 ;; JavaScript
 ;;(require 'js2-mode)
 ;;(autoload 'js2-mode "js2-mode" nil t)
